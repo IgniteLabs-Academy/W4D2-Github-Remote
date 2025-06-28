@@ -1,22 +1,12 @@
-# Week 4 - Day 2: GitHub Remote, Push, Pull
+# React + Vite
 
-## 🧠 Real-World Scenario
-You need to collaborate with your team and push your local code to GitHub and pull changes from it.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🎯 Task
+Currently, two official plugins are available:
 
-1. Add a GitHub remote using `git remote add origin <url>`
-2. Push your changes using `git push -u origin main`
-3. Simulate a pull (or fetch+merge)
-4. Make sure the repo is clean and up-to-date
-5. Verify all changes are tracked
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-> You can simulate with a fake URL like https://github.com/yourname/project.git
+## Expanding the ESLint configuration
 
-## 🧪 Testing & Scoring
-5 test cases × 20 points = 100 points
-
-## 🚀 Steps
-- Use Git CLI to add, push, and pull from a remote
-- Test your Git fluency with real commands
-- Refer to expected output for example
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
